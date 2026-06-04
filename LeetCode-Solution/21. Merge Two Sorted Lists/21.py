@@ -11,4 +11,4 @@ class Solution:
                 list2 = list2.next
             tail = tail.next
         tail.next = list1 if list1 else list2
-        return dummy.next
+        return dummy.next 
